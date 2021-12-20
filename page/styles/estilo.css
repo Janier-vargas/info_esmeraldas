@@ -1,0 +1,203 @@
+body{
+    margin: 0px;
+    background: url(https://www.flopec.com.ec/wp-content/uploads/2019/06/playa_las_palmas.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+    
+}
+.log{
+    display: inline-flex;
+    text-decoration-color: black;
+}
+
+.encabezado, .contenido, .pie{
+    padding: 1em 2em;
+}
+.contenido, .pie{
+    float: left;
+    box-sizing: border-box;
+}
+.encabezado{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(85, 236, 85,.7);
+    text-align: left;
+    height: 100px;
+    margin: 0px;
+}
+.contenido{
+    width: 100%;
+    margin: auto;
+
+}
+.post{
+    background-color: rgba(233, 174, 106,.7);
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 23px;
+    border-radius: 15px;
+
+}
+.post1{
+    background-color: rgba(233, 174, 106,.7);
+    height: 600px;
+    margin-bottom: 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    border-radius: 15px;
+    padding: 5px;
+
+}
+.desc{
+    padding: 3px;
+}
+.pie{
+    width: 100%;
+    height: 180px;
+    background-color: rgba(59, 58, 58,.7);
+    margin: 0px;
+}
+ul{
+    color: white;
+    list-style: circle;
+}
+h3{
+    color: white;
+
+    margin-right: 10px;
+}
+h4{
+    color: white;
+    margin-right: 10px;
+}
+
+.alex, .karla, .tacito, .lucia, .adalberto, .textos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    border-radius: 5px;
+    border-bottom: 20px;
+    font-size: 20px color black;
+    text-align: right;
+    
+}
+
+
+.alex{
+    background-image: url(https://www.eltelegrafo.com.ec/media/k2/items/cache/b551a10b5ddd5e46144bd1357b6fbaff_XL.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+
+.karla{
+    background-image: url(https://imagenes.expreso.ec/files/image_800_600/uploads/2020/06/09/5edfd6a8eba66.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+.tacito{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoJ2cu9QgUHr2sKShmQgkuwrAwnB642H_jID8ITOXY9QOnYnBnbaYvc1OXadmLBIGtI-4&usqp=CAU);
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+.lucia{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Luc%C3%ADa_Sosa.jpg/220px-Luc%C3%ADa_Sosa.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+.adalberto{
+    background-image: url(https://lahora.com.ec/contenido/cache/4a/adalberto-ortiz-quinonez-_1914-2003_-imagen-1-_2018028073230-682x512.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+
+
+
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+    .contenido{
+        width: 100%;
+    }
+    
+    .contenido{
+        width: 100%;
+    }
+    .pie{
+        width: 100%;
+    }
+
+}
+ 
+
+@media screen and (min-width: 480px) and (max-width:720px){
+    .encabezado{
+        width: 100%;
+    }
+    .contenido{
+        width: 100%;
+    }
+    .post1{
+        background-color: rgba(233, 174, 106,.7);
+        height: 800px;
+        margin-bottom: 1em;
+        display: grid;
+        grid-template-columns:repeat(1, 5fr ) ;
+        gap: 15px;
+        border-radius: 15px;
+        padding: 5px;
+    }
+    .pie{
+        width: 100%;
+    }
+
+ }
+@media screen and (min-width: 360px) and (max-width: 480px){
+     .encabezado{
+        width: 100%;
+        font-size: small;
+     }
+     .log{
+         size: 20px;
+     }
+     .pie{
+         width: 100%;
+     }
+     .post1{
+        background-color: rgba(233, 174, 106,.7);
+        height: 800px;
+        margin-bottom: 1em;
+        display: grid;
+        grid-template-columns: repeat(1, 5fr);
+        gap: 15px;
+        border-radius: 15px;
+        padding: 5px;
+    
+    }
+}
+@media screen and (min-width: 144px) and (max-width: 360px){
+        .encabezado{
+            width: 100%;
+            font-size: small;
+         }
+         .log{
+             size: 20px;
+         }
+         .pie{
+             width: 100%;
+         }
+         .post1{
+            background-color: rgba(233, 174, 106,.7);
+            height: 1000px;
+            margin-bottom: 1em;
+            display: grid;
+            grid-template-columns: repeat(1, 5fr);
+            gap: 15px;
+            border-radius: 15px;
+            padding: 5px;
+        
+    }
+}
